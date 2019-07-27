@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include read_config.py
+include __init__
+include setup.py
+include MANIFEST.in
+include requirements.txt

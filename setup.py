@@ -1,11 +1,15 @@
 import setuptools
 
+install_requires = ['redis']
+
+packages = ["read_config"]
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="read_config_jduncan8142",
-    version="0.0.2",
+    name="read_config",
+    version="0.0.3",
     author="Jason Duncan",
     author_email="jason.matthew.duncan@gmail.com",
     description="Read redis config DB",
@@ -19,4 +23,5 @@ setuptools.setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Natural Language :: English"
     ],
+    install_requires=install_requires,
 )
