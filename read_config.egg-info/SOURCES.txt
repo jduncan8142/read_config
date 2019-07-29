@@ -1,9 +1,0 @@
-README.md
-__init__.py
-read_config.py
-requirements.txt
-setup.py
-read_config.egg-info/PKG-INFO
-read_config.egg-info/SOURCES.txt
-read_config.egg-info/dependency_links.txt
-read_config.egg-info/top_level.txt
